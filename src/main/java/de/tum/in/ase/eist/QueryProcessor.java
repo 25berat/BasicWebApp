@@ -14,7 +14,7 @@ public class QueryProcessor {
         } else if (query.contains("name")) {
            return "be";
         } else { // TODO extend the programm here
-            return "not my name!";
+            return "unknown request";
         }
 
     }
